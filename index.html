@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #game-container {
+            box-sizing: border-box;
+            width: 548px;
+            height: 505px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin: 80px auto;
+            border: 1px solid #ccc;
+        }
+        .game-cell {
+            width: 89px;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #ccc;
+            cursor: pointer;
+            font-size: 32px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="game-container"></div>
+    <script src="./game.js"></script>
+</body>
+
+</html>
